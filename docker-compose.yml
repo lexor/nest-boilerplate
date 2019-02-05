@@ -1,0 +1,13 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: boilerplate
+      POSTGRES_PASSWORD: 5wgaZzKSBx4S5gMQ
+      POSTGRES_DB: boilerplate
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - '5432:5432'

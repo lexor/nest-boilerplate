@@ -1,0 +1,9 @@
+type Query {
+  login(email: String!, password: String!): AuthData
+  refresh(refreshToken: String!): AuthData
+}
+
+type AuthData {
+  refreshToken: String
+  accessToken: String
+}
