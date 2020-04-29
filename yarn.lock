@@ -2088,9 +2088,9 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fastify-formbody@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/fastify-formbody/-/fastify-formbody-2.0.1.tgz#9c5921326122f4f02aaa41346bf8ef58386bdfd3"
+fastify-formbody@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fastify-formbody/-/fastify-formbody-3.1.0.tgz#604cdafdb9e3af6068e6d9940985baf692d6e922"
   dependencies:
     fastify-plugin "^1.0.0"
     qs "^6.5.1"
