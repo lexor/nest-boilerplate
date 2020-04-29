@@ -41,14 +41,15 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@nestjs/common@5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-5.2.1.tgz#82aa23f845995419b23de46b1519bf9c7ea77a4c"
+"@nestjs/common@5.7.4":
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-5.7.4.tgz#32eaf1de87449ab56af7e3a15b9060811150429a"
   dependencies:
-    axios "0.17.1"
+    axios "0.18.0"
     cli-color "1.2.0"
     deprecate "1.0.0"
     multer "1.3.0"
+    uuid "3.3.2"
 
 "@nestjs/core@5.2.1":
   version "5.2.1"
@@ -740,11 +741,11 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
-axios@0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+axios@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   dependencies:
-    follow-redirects "^1.2.5"
+    follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
@@ -1602,6 +1603,12 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
+debug@^3.0.0:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
+  dependencies:
+    ms "^2.1.1"
+
 debug@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
@@ -2244,11 +2251,11 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-follow-redirects@^1.2.5:
-  version "1.5.7"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.7.tgz#a39e4804dacb90202bca76a9e2ac10433ca6a69a"
+follow-redirects@^1.3.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
   dependencies:
-    debug "^3.1.0"
+    debug "^3.0.0"
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -5889,7 +5896,7 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
-uuid@^3.1.0, uuid@^3.3.2:
+uuid@3.3.2, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
